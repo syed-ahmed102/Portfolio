@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Ahmed Hassan Naqvi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Hi, I'm Syed Ahmed Hassan Naqvi</h1>
+        <p>Welcome to my portfolio! I'm a passionate Web Developer and Designer.</p>
+        <a href="#contact" class="cta-button">Get in touch</a>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm a beginner developer with a passion for learning and building 
+          projects that make a difference. I’m excited about exploring various programming 
+          languages and technologies, and have gained experience in HTML, CSS, JavaScript, 
+          and Python. I enjoy solving problems, collaborating, and creating innovative solutions. 
+          I’m always eager to take on new challenges and expand my skills.</p>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+          <div class="project-card">
+              <img src="weather.PNG" alt="Weather App" class="project-image"> <!-- Replace with actual image URL -->
+              <h3>Weather App</h3>
+              <p>Built with HTML, CSS, and TypeScript, this app fetches live weather data from an API.</p>
+              <a href="https://weather-app-tan-seven-17.vercel.app/" target="_blank">View Project</a>
+          </div>
+          <div class="project-card">
+              <img src="Capture.PNG" alt="Login Form" class="project-image"> <!-- Replace with actual image URL -->
+              <h3>Login Form</h3>
+              <p>A user-friendly login form built with HTML, CSS, TypeScript, and JavaScript for validation.</p>
+              <a href="https://login-fawn-delta.vercel.app/" target="_blank">View Project</a>
+          </div>
+          <div class="project-card">
+              <img src="5.PNG" alt="Governor Sindh Hero Section" class="project-image"> <!-- Replace with actual image URL -->
+              <h3>Governor Sindh Hero Section</h3>
+              <p>A Next.js-based hero section designed for a Governor of Sindh website.</p>
+              <a href="https://governor-sindh-nu.vercel.app/" target="_blank">View Project</a>
+          </div>
+      </div>
+  </section>
+  
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button onclick="window.location.href='mailto:[syedahmedh@gmail.com]';" type="submit">Send Message</button>
+        </form>
+        <p>Have questions or want to work together? Get in touch!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Syed Ahmed Hassan Naqvi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

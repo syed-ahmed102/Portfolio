@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Hassan Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Hello, I'm Syed Ahmed Hassan Naqvi</h1>
+            <p>A passionate FrontendWeb Developer & Designer</p>
+            <a href="#contact" class="cta-button">Get in touch</a>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="/weather.PNG" alt="Project 1" class="project-image">
+                    <h3>Project 1</h3>
+                    <p>Here’s a basic outline of a weather app using HTML, CSS, and TypeScript.
+                        This example includes a simple layout and functionality to fetch weather data from 
+                        an API.This simple weather app demonstrates the integration of HTML, CSS, and TypeScript
+                        to create a functional web application. You can expand upon this foundation by adding more
+                        features, such as an extended forecast, error handling, or enhanced styling.. Highlight key
+                         features and technologies used.</p>
+                    <a href="#" class="https://weather-app-tan-seven-17.vercel.app/">View Project</a>
+                </article>
+                <article class="project-card">
+                    <img src="/Capture.PNG" alt="Project 2" class="project-image">
+                    <h3>Project 2</h3>
+                    <p>This login form implementation utilizes HTML, CSS, TypeScript, and JavaScript
+                        to provide a clean and effective user experience. The form captures user input
+                        and performs validation, ensuring that the necessary fields are filled before submission.
+                        Error messages are displayed dynamically based on user input, enhancing usability and guiding
+                        the user through the login process.</p>
+                    <a href="#" class="https://login-fawn-delta.vercel.app/">View Project</a>
+                </article>
+                <article class="project-card">
+                    <img src="/5.PNG" alt="Project 3" class="project-image">
+                    <h3>Project 3</h3>
+                    <p>The Governor Sindh Hero Section is a visually striking component designed for a 
+                        website dedicated to the Governor of Sindh. Developed using Next.js, this section 
+                        serves as a prominent introduction, showcasing the Governor's vision, initiatives, 
+                        and key achievements in a compelling and user-friendly format.</p>
+                    <a href="#" class="https://governor-sindh-nu.vercel.app/">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/syed-ahmed102" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/syed-ahmed-hassan-592a5232b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Syed Ahmed Hassan Naqvi All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

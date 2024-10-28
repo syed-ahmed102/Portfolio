@@ -1,0 +1,246 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(90deg, #272424, #615e5d); /* Gradient background */
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s, transform 0.3s; /* Add transform on hover */
+}
+
+nav ul li a:hover {
+  color: #f8d847;
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, rgba(255, 0, 128, 0.5), rgba(255, 140, 0, 0.5));
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffffff; /* Bright color for visibility */
+  text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.8); /* Text shadow for depth */
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #f8d847; /* Button color */
+  color: #0d0d0d; /* Text color */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: all 0.3s ease, transform 0.3s; /* Add transform on hover */
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background: #e2c83b;
+  box-shadow: 0 0 15px #f8d847, 0 0 30px #f8d847;
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Container Styles */
+.container {
+  padding: 40px 20px;
+}
+
+/* Section Title Styles */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #ff8c00; /* Title color */
+  text-shadow: 1px 1px 10px rgba(255, 140, 0, 0.6); /* Shadow for depth */
+}
+/* About Section Styles */
+#about {
+  text-align: center; /* Center align text */
+}
+
+#about h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2.5em; /* Size for the heading */
+  color: #ff8c00; /* Title color */
+}
+
+#about p {
+  margin: 0 auto; /* Center the paragraph */
+  max-width: 800px; /* Optional: limit width for readability */
+  font-size: 1.2em; /* Font size for paragraph */
+}
+
+/* Project Grid Styles */
+.project-grid {
+  display: flex; /* Use Flexbox for layout */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 20px 0; /* Add padding to the top and bottom */
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: Background for project cards */
+  border: 2px solid #ff8c00; /* Optional: Border to match other sections */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside each card */
+  margin-right: 20px; /* Margin between cards */
+  min-width: 300px; /* Minimum width for each card */
+  text-align: center; /* Center text within the card */
+}
+
+.project-card:last-child {
+  margin-right: 0; /* Remove margin from the last card */
+}
+
+.project-image {
+  width: 100%; /* Make image full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+  margin-bottom: 15px; /* Space between image and text */
+}
+
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #ff8c00; /* Title color */
+}
+
+.project-card a {
+  color: #f8d847;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s; /* Add transform on hover */
+}
+
+.project-card a:hover {
+  color: #e2c83b; /* Change color on hover */
+  transform: translateY(-3px); /* Lift effect on hover */
+}
+
+/* Skills List */
+.skills-list {
+  list-style: none;
+  padding:  40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #f8d847;
+  transition: all 0.3s;
+}
+
+.skills-list li:hover {
+  background: #f8d847; /* Change background on hover */
+  color: #0d0d0d;
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+
+/* Contact Section Styles */
+#contact {
+  text-align: center; /* Center align text */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center items horizontally */
+  padding: 40px; /* Add padding */
+  background: rgba(255, 255, 255, 0.1); /* Optional: Background for better visibility */
+  border: 2px solid #ff8c00; /* Optional: Border to match other sections */
+  border-radius: 10px; /* Rounded corners */
+  width: 90%; /* Set the width of the section */
+  max-width: 600px; /* Maximum width for larger screens */
+  height:50%; /* Allow height to adjust based on content */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+#contact h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2.5em; /* Size for the heading */
+  color: #ff8c00; /* Title color */
+}
+
+#contact form {
+  display: flex; /* Use flexbox for form items */
+  flex-direction: column; /* Align form elements in a column */
+  align-items: center; /* Center form elements */
+  width: 100%; /* Ensure form takes full width */
+  max-width: 400px; /* Limit form width for better appearance */
+}
+
+#contact label {
+  margin-bottom: 10px; /* Space below labels */
+  font-size: 1.2em; /* Font size for labels */
+  color: #f8f6f6; /* Label color */
+}
+
+#contact input, #contact textarea {
+  width: 100%; /* Full width for inputs and textarea */
+  padding: 10px; /* Padding for better user experience */
+  margin-bottom: 20px; /* Space below input fields */
+  border: 2px solid #ff8c00; /* Border color to match theme */
+  border-radius: 5px; /* Rounded corners */
+}
+
+#contact button {
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #ff8c00; /* Button background color */
+  color: #fff; /* Button text color */
+  font-size: 1.2em; /* Font size for button */
+  cursor: pointer; /* Pointer on hover */
+}
+
+#contact button:hover {
+  background-color: #ff6f00; /* Darker shade on hover */
+}
+
+
+/* Footer Styles */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 0;
+  background: #1c1c1c;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  color: #f8d847; /* Bright footer text color */
+}
